@@ -6,8 +6,10 @@ abstract  class AbstractProduct {
     private double prcost;
 
     public AbstractProduct(String name, double cost) {
-        this.prname = name;
-        this.prcost = cost;
+        protected AbstractProduct () {
+            this.prname = name;
+            this.prcost = cost;
+        }
     }
 
     public double getCost() {

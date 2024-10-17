@@ -2,7 +2,6 @@ package com.iut.produit;
 import java.util.*;
 class ShoppingCart {
     private List<AbstractProduct> items = new ArrayList<>();
-    private  double tprice;
     public void addItem(AbstractProduct item) {
         items.add(item);
     }
