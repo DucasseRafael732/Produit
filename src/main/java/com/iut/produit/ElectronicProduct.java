@@ -1,15 +1,15 @@
 package com.iut.produit;
 
 class ElectronicProduct extends AbstractProduct {
-    private String Elbrand;
+    private String elbrand;
 
     protected ElectronicProduct(String name, double cost, String brand) {
         super(name, cost);
-        this.Elbrand = brand;
+        this.elbrand = brand;
     }
 
     public String getBrand() {
-        return Elbrand;
+        return elbrand;
     }
 
     @Override

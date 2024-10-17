@@ -2,21 +2,21 @@ package com.iut.produit;
 
 abstract  class AbstractProduct {
 
-    private String Prname;
-    private double Prcost;
+    private String prname;
+    private double prcost;
 
     public AbstractProduct(String name, double cost) {
-        this.Prname = name;
-        this.Prcost = cost;
+        this.prname = name;
+        this.prcost = cost;
     }
 
     public double getCost() {
-        return Prcost;
+        return prcost;
     }
 
     public double calculatePrice() {
         // Exception non gérée (division par zéro)
-        return Prcost / 0;
+        return prcost / 0;
     }
 
 }
